@@ -10,7 +10,7 @@ var projects = [
 	{
 		Title: 'Purchase Orders Display Board',
 		ImageUrl:
-			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/PURCHASE ORDERS BOARD.png',
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/PURCHASE_ORDERS_BOARD.png',
 		Description: 'Shows the Purchase order parts tracking and status.',
 	},
 	{
