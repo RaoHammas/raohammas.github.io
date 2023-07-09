@@ -2,70 +2,83 @@
 var projects = [
 	{
 		Title: 'Repair Orders Dashboard',
-		ImageUrl: '../images/Projects/RODashboard.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/RODashboard.png',
 		Description:
 			'Repair Orders dashboard for Services department of Toyota Pakistan.',
 	},
 	{
 		Title: 'Purchase Orders Display Board',
-		ImageUrl: '../images/Projects/PURCHASE ORDERS BOARD.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/PURCHASE ORDERS BOARD.png',
 		Description: 'Shows the Purchase order parts tracking and status.',
 	},
 	{
 		Title: 'Sales Activity Control Board',
-		ImageUrl: '../images/Projects/SalesActivityControlBoard.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/SalesActivityControlBoard.png',
 		Description: 'Shows the sale targets and achievements of sale persons.',
 	},
 	{
 		Title: 'SkyNet Critical Care',
-		ImageUrl: '../images/Projects/SkyNet2.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/SkyNet2.png',
 		Description: 'SkyNet Critical Care',
 	},
 	{
 		Title: 'Job Progress Control Board',
-		ImageUrl: '../images/Projects/Jpcb.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/Jpcb.png',
 		Description: 'Shows repair order jobs and their status.',
 	},
 	{
 		Title: 'Employee Salary Increment',
-		ImageUrl: '../images/Projects/Increment.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/Increment.png',
 		Description: 'Employee bulk salary increment module.',
 	},
 	{
 		Title: 'DPOK Dashboard',
-		ImageUrl: '../images/Projects/dpokDashboard.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/dpokDashboard.png',
 		Description:
 			'DPOK Items dashboard showing data for different stocks and types.',
 	},
 	{
 		Title: 'Employee Incentive System',
-		ImageUrl: '../images/Projects/IncentiveSystem.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/IncentiveSystem.png',
 		Description: 'Employee Salary Incentive modules for departments.',
 	},
 	{
 		Title: 'Customers Bulk message Module',
-		ImageUrl: '../images/Projects/messageTool.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/messageTool.png',
 		Description: 'Bulk Message sending system for customers.',
 	},
 	{
 		Title: 'Parts Department Dashboard',
-		ImageUrl: '../images/Projects/partsDashboard.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/partsDashboard.png',
 		Description: 'Dashboard for showing Parts department data.',
 	},
 	{
 		Title: 'Parts Yearly Target System',
-		ImageUrl: '../images/Projects/targets.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/targets.png',
 		Description:
 			'Set yearly targets for Parts category & type wise and see tracking.',
 	},
 	{
 		Title: "Today's Appointment Terminal",
-		ImageUrl: '../images/Projects/TabTerminal.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/TabTerminal.png',
 		Description: 'Appointment terminal board showing appointments and status.',
 	},
 	{
 		Title: 'Crystal Reports Viewer',
-		ImageUrl: '../images/Projects/reportsViewer.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/reportsViewer.png',
 		Description: 'Crystal reports viewer module.',
 	},
 	{
@@ -84,18 +97,21 @@ var projects = [
 	},
 	{
 		Title: 'Job Progress Details',
-		ImageUrl: '../images/Projects/JobProgress.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/JobProgress.png',
 		Description: "Manage a repair job's progress and status",
 	},
 	{
 		Title: 'Delivery Acceptance Note',
-		ImageUrl: '../images/Projects/deliveryAcceptanceNote.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/deliveryAcceptanceNote.png',
 		Description:
 			"Customer's vehicle delivery acceptance that allows taking a picture of the customer.",
 	},
 	{
 		Title: 'Value Chain Products',
-		ImageUrl: '../images/Projects/ValueChain.png',
+		ImageUrl:
+			'https://raw.githubusercontent.com/RaoHammas/My-Website/main/images/Projects/ValueChain.png',
 		Description:
 			'Value chain products that are bought by the customer with a regular repair order.',
 	},
