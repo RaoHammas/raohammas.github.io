@@ -118,7 +118,7 @@ var projects = [
 ];
 
 // Get the container element
-var techContainer = document.querySelector('#projectsContainer');
+var projectsContainer = document.querySelector('#projectsContainer');
 
 // Loop through the projects array and create cards dynamically
 projects.forEach(function (project) {
@@ -166,7 +166,7 @@ projects.forEach(function (project) {
 	// card.appendChild(cardDescription);
 
 	// Append card to the container
-	techContainer.appendChild(card);
+	projectsContainer.appendChild(card);
 });
 
 // Get all the card content elements

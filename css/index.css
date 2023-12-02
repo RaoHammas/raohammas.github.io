@@ -250,13 +250,11 @@ li:hover {
 }
 
 @media (max-width: 468px) {
-	li {
-		width: 95%;
-	}
 	ul {
-		margin: 0 50px 20px 50px;
+		width: 90%;
 	}
 }
+
 /* ----------------------------- Tech List ---------------------------------------- */
 
 .techContainer {
@@ -295,6 +293,10 @@ li:hover {
 @media (max-width: 768px) {
 	.techItem {
 		width: 100px;
+	}
+
+	#projectsContainer {
+		margin: 0px 0px 0px 25px;
 	}
 }
 
