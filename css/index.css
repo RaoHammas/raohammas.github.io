@@ -11,6 +11,7 @@ html {
 	justify-content: center;
 	align-items: center;
 	font-size: 18px;
+	padding: 0px;
 }
 
 .section:nth-child(1) {
@@ -73,15 +74,15 @@ body::-webkit-scrollbar-thumb:hover {
 .center {
 	position: relative;
 	z-index: 1;
-	text-align: center; /* Add this property */
+	text-align: center;
 }
 
 .round-image {
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	display: block; /* Add this property */
-	margin: 0 auto; /* Add this property */
+	display: block;
+	margin: 0 auto;
 }
 
 #particles-js {
@@ -93,26 +94,60 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .headerIcons {
-	display: flex; /* Add this property */
-	justify-content: center; /* Add this property */
-	margin-top: 30px; /* Adjust this value for spacing */
-}
-
-.headerIcon {
-	margin: 0 10px; /* Adjust this value for spacing */
-	font-size: 20px;
-	color: black;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
 }
 
 a {
-	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: none;
+	background-color: black;
+	color: #ffffff;
+	cursor: pointer;
+	height: 30px;
+	border-radius: 8px;
+	margin-left: 10px;
+	font-size: 12px;
+	text-decoration: none;
 }
 
+a i {
+	font-size: 18px;
+	color: white;
+	margin-right: 10px;
+}
+
+@media (max-width: 468px) {
+	.headerIcons {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	a {
+		flex-direction: column;
+		padding-bottom: 20px;
+		margin-bottom: 10px;
+		height: 60px;
+		width: 100px;
+	}
+
+	i {
+		font-size: 18px;
+		color: white;
+		margin-top: 10px;
+	}
+}
 /* ------------------------------ Timeline ------------------------------*/
 
 .timeline {
 	display: flex;
-	justify-content: center; /* Add this property */
+	justify-content: center;
 }
 
 .timeline-item {
@@ -175,7 +210,7 @@ a {
 ul {
 	list-style-type: none;
 	padding: 0;
-	margin: 0 20 20 20;
+	margin: 0 120px 20px 120px;
 }
 
 li {
@@ -234,9 +269,8 @@ li:hover {
 /* -----------------------------------CONTACT FORM STYLE----------------------------------- */
 
 .form-container {
-	width: 350px;
-	margin: 0 auto;
-	padding: 20px;
+	width: 320px;
+	padding: 50px;
 }
 
 .form-group {
@@ -254,13 +288,14 @@ li:hover {
 
 .form-group input,
 .form-group textarea {
-	width: 100%;
+	width: 95%;
 	padding: 8px;
 	border: 1px solid #3b3b3b;
-	border-radius: 0px;
 	transition: border-color 0.3s;
 	background-color: #242424;
 	color: white;
+	height: 30px;
+	border-radius: 8px;
 }
 
 .form-group input:focus,
@@ -273,19 +308,14 @@ li:hover {
 .form-group textarea {
 	resize: vertical;
 	min-height: 220px;
-}
-
-.form-button {
-	display: flex;
-	justify-content: flex-end;
+	border-radius: 8px;
 }
 
 .form-button button {
-	padding: 8px 16px;
 	background-color: #242424;
 	color: white;
 	border: none;
-	border-radius: 0px;
+	border-radius: 8px;
 	height: 40px;
 	cursor: pointer;
 	width: 100%;
