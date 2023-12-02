@@ -7,15 +7,12 @@ html {
 }
 
 .section {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	font-size: 18px;
 	padding: 0px;
 }
 
 .section:nth-child(1) {
-	min-height: 100vh;
+	min-height: 120vh;
 	background-color: white;
 }
 
@@ -71,12 +68,12 @@ body::-webkit-scrollbar-thumb:hover {
 
 /*---------------------------------- Image in first section ---------------------------------*/
 
-.center {
+/* .center {
 	position: relative;
 	z-index: 1;
 	text-align: center;
 }
-
+ */
 .round-image {
 	width: 150px;
 	height: 150px;
@@ -94,15 +91,21 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .headerIcons {
-	display: flex;
-	justify-content: center;
 	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 a {
 	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	align-items: center;
-	justify-content: space-between;
+	align-content: center;
+
 	padding-left: 10px;
 	padding-right: 10px;
 	border: none;
@@ -124,23 +127,30 @@ a i {
 
 @media (max-width: 468px) {
 	.headerIcons {
-		flex-direction: column;
+		display: flex;
+		flex-direction: row;
 		justify-content: center;
 		align-items: center;
+		align-content: center;
+		flex-wrap: wrap;
 	}
 
 	a {
+		display: flex;
 		flex-direction: column;
-		padding-bottom: 20px;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		padding: 20px;
 		margin-bottom: 10px;
-		height: 60px;
 		width: 100px;
 	}
 
-	i {
+	a i {
 		font-size: 18px;
 		color: white;
-		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: 0px;
 	}
 }
 /* ------------------------------ Timeline ------------------------------*/
@@ -182,7 +192,7 @@ a i {
 .timelineItemDescContainer {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: left;
 	justify-content: center;
 }
 
@@ -195,7 +205,10 @@ a i {
 		flex-direction: column;
 		margin: 0 0px;
 	}
-
+	.timelineItemDescContainer {
+		align-items: center;
+		text-align: center;
+	}
 	.line {
 		width: 2px;
 		height: 100px;
@@ -219,6 +232,7 @@ li {
 	margin-bottom: 10px;
 	transition: background-color 0.3s ease;
 	border-radius: 8px;
+	text-align: center;
 }
 
 li:hover {
@@ -267,18 +281,18 @@ li:hover {
 }
 
 /* -----------------------------------CONTACT FORM STYLE----------------------------------- */
-
-.form-container {
-	width: 320px;
-	padding: 50px;
+#contactForm {
+	margin: 50px;
+	width: 450px;
 }
-
-.form-group {
-	margin-bottom: 20px;
+@media (max-width: 450px) {
+	#contactForm {
+		width: 90%;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
 }
-
 .form-group label {
-	display: block;
 	text-align: left;
 	font-weight: normal;
 	margin-bottom: 5px;
@@ -288,13 +302,11 @@ li:hover {
 
 .form-group input,
 .form-group textarea {
-	width: 95%;
-	padding: 8px;
+	width: 100%;
 	border: 1px solid #3b3b3b;
 	transition: border-color 0.3s;
 	background-color: #242424;
 	color: white;
-	height: 30px;
 	border-radius: 8px;
 }
 
@@ -311,7 +323,7 @@ li:hover {
 	border-radius: 8px;
 }
 
-.form-button button {
+#emailBtn {
 	background-color: #242424;
 	color: white;
 	border: none;
@@ -322,6 +334,6 @@ li:hover {
 	transition: background-color 0.3s;
 }
 
-.form-button button:hover {
+#emailBtn :hover {
 	background-color: #3b3b3b;
 }
