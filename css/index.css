@@ -68,12 +68,22 @@ body::-webkit-scrollbar-thumb:hover {
 
 /*---------------------------------- Image in first section ---------------------------------*/
 
-/* .center {
-	position: relative;
-	z-index: 1;
+.TechTags {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 50%;
 	text-align: center;
+	font-size: small;
 }
- */
+@media (max-width: 450px) {
+	.TechTags {
+		width: 90%;
+	}
+}
+
 .round-image {
 	width: 150px;
 	height: 150px;
