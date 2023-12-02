@@ -17,7 +17,7 @@ html {
 }
 
 .section:nth-child(2) {
-	min-height: 100vh;
+	min-height: 340px;
 	background-color: #1b1b1b;
 	color: white;
 }
@@ -249,6 +249,14 @@ li:hover {
 	background-color: #3b3b3b;
 }
 
+@media (max-width: 468px) {
+	li {
+		width: 95%;
+	}
+	ul {
+		margin: 0 50px 20px 50px;
+	}
+}
 /* ----------------------------- Tech List ---------------------------------------- */
 
 .techContainer {
